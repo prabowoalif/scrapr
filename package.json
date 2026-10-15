@@ -1,0 +1,56 @@
+{
+  "name": "@alifxz/scrapr",
+  "version": "1.3.0",
+  "description": "Universal media extractor, link resolver, and URL unshortener for Node.js (TikTok, Instagram, YouTube, Spotify, Sfile, Safelinku, and more).",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabowoalif/scrapr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prabowoalif/scrapr/issues"
+  },
+  "homepage": "https://github.com/prabowoalif/scrapr#readme",
+  "keywords": [
+    "downloader",
+    "scraper",
+    "resolver",
+    "unshorten",
+    "link-resolver",
+    "tiktok",
+    "instagram",
+    "youtube",
+    "spotify",
+    "twitter",
+    "media-downloader",
+    "social-media"
+  ],
+  "scripts": {
+    "test": "node test/core.test.js",
+    "test:all": "node test/test.js"
+  },
+  "license": "MIT",
+  "author": "ALIFxz",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.61.1",
+    "playwright-extra": "4.3.6",
+    "puppeteer-core": "^25.3.0",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
+  }
+}
